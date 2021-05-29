@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity">
+    <EditText
+        android:id="@+id/editTextlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:layout_marginTop="1dp"
+        android:inputType="textPersonName"
+        android:hint="Type a message..."
+        android:layout_alignParentLeft="true" />
+    <Button
+        android:id="@+id/buttonList"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextlist"
+        android:text="Add to firebase database"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/listViewSee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonList"
+        android:layout_marginTop="1dp"/>
+</RelativeLayout>

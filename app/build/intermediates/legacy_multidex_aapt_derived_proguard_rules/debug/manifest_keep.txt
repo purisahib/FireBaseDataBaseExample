@@ -1,0 +1,4 @@
+# Referenced at H:\Androidproject\FireApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at H:\Androidproject\FireApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:20
+-keep class com.pradeep.fireapp.FireApp { <init>(); }
